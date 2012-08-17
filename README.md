@@ -1,4 +1,8 @@
-whoozer-api-doc
-===============
+Welcome to Whoozer's API documentation
+--------------------------------------
 
-Whoozer's documentation
+You can find here the documentation.
+
+TODO
+----
+English version
