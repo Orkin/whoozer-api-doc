@@ -22,7 +22,7 @@ Connections
 * stream : array of [feed](feed.md) objects containing the last 25 home feeds
 * report : array of [report](report.md) objects containing the last 25 report
 
-[id-block]Blocks
+[id-block][Blocks]
 ------
 ### Read block (GET)
 Vous pouvez récuperer la liste des utilisateurs bloquer en envoyant une requete GET sur /user/PROFILE_ID/blocks
