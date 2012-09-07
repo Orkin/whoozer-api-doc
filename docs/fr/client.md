@@ -24,18 +24,18 @@ Connections
 
 [id-block]Blocks
 ------
-# Read block (GET)
+### Read block (GET)
 Vous pouvez récuperer la liste des utilisateurs bloquer en envoyant une requete GET sur /user/PROFILE_ID/blocks
 
-# Appartenance (GET)
-Vous pouvez vérifier si un utilisateur est bloquer en envoyant une requete GET sur /user/PROFILE_ID/blocks
+### Appartenance (GET)
+Vous pouvez vérifier si un utilisateur est bloquer en envoyant une requete GET sur /user/PROFILE_ID/blocks    
 Vous devez passer en parametre de la requeste le user_id de l'utilisateur dont vous voulez vérifier si il est bloqué.   
 
-# Block user (POST)
-Vous pouvez blocker un utilisateur en envoyant une requete POST sur /users/PROFILE_ID/blocks 
-Vous devez passer en parametre de la requete le user_id de l'utilisateur à bloquer
+### Block user (POST)
+Vous pouvez blocker un utilisateur en envoyant une requete POST sur /users/PROFILE_ID/blocks  
+Vous devez passer en parametre de la requete le user_id de l'utilisateur à bloquer    
 
-# Unblock User (DELETE)
-Vous pouvez débloquer un utilisateur en envoyant une requete DELETE sur /users/PROFILE_ID/blocks
-Vous devez passer en parametre de la requete le user_id de l'utilisateur à débloquer
+### Unblock User (DELETE)
+Vous pouvez débloquer un utilisateur en envoyant une requete DELETE sur /users/PROFILE_ID/blocks   
+Vous devez passer en parametre de la requete le user_id de l'utilisateur à débloquer   
 
