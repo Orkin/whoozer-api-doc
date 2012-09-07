@@ -11,7 +11,7 @@ Fields
 
 Connections
 ------------
-* blocks : array of (client)[client.md] objects containing id, name fields
+* blocks : `array of [client](client.md) objects containing id, name fields`
 * communities : array of (community)[community.md] objects containing id, name fields
 * conversations : array of (conversation)[conversation.md] objects containing id field
 * follows : array of (client)[client.md] objects containing id,name fields
