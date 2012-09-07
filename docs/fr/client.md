@@ -11,7 +11,7 @@ Fields
 
 Connections
 ============
-* blocks : array of [client](client.md) objects containing id, name fields
+* blocks : array of [client](#blocks) objects containing id, name fields
 * communities : array of [community](community.md) objects containing id, name fields
 * conversations : array of [conversation](conversation.md) objects containing id field
 * follows : array of [client](client.md) objects containing id,name fields
@@ -22,7 +22,7 @@ Connections
 * stream : array of [feed](feed.md) objects containing the last 25 home feeds
 * report : array of [report](report.md) objects containing the last 25 report
 
-[id-block][Blocks]
+Blocks
 ------
 ### Read block (GET)
 Vous pouvez récuperer la liste des utilisateurs bloquer en envoyant une requete GET sur /user/PROFILE_ID/blocks
