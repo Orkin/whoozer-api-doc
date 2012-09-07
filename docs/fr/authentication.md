@@ -1,5 +1,5 @@
 # Authentification
-L'API de Whoozer met en oeuvre le protocole OAUTH2.0
+L'API de Whoozer met en oeuvre le protocole OAUTH2.0.
 
 Pour accéder à une donnée de l'API, il est nécessaire de fournir un **access_token**
 
