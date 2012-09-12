@@ -8,11 +8,16 @@ Fields
 * birth_date : `string (Y-m-d)` 
 * nickname : `string`
 * type : `string`
+* picture : `object(url, width, height, type)`
+* cover : `object(url, width, height, type)`
+* distance : `integer`
+* position : `object(lat, long, alt, vacc, hacc)`
+* controls : object('distance_privacy', 'age_privacy', 'presentation_privacy', 'relationship_privacy', 'phone_privacy', 'job_privacy')
 
 Connections
 ============
-* blocks : array of [blocked users](#blocks) objects containing id, name fields
-* communities : array of [community](#communities) objects containing id, name fields
+* blocks : array of [blocked users](#blocks) objects containing `(id, name)` fields
+* communities : array of [community](#communities) objects containing `(id, name)` fields
 * conversations : array of [conversation](#conversations) objects containing id field
 * follows : array of [follow](#follows) objects containing id,name fields
 * feeds : array of [feed](#feeds) objects containing the last 25 feeds
@@ -21,6 +26,7 @@ Connections
 * pokes : array of [poke](#pokes) objects containing the last 25 pokes
 * stream : array of [feed](#stream) objects containing the last 25 home feeds
 * reports : array of [report](#reports) objects containing the last 25 report
+
 
 Blocks
 ------

@@ -7,8 +7,8 @@ Fields
 * message : `string`
 * sender : `integer`
 * wall : `integer`
+* image : `object with id, url`
 
 Connections
 ===========
-* comments : array of [questions](#comments) objects containing id, name, message fields
 * likes : array of [members](#likes) objects containing id, name
