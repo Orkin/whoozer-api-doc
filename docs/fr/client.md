@@ -16,6 +16,7 @@ Fields
 
 Connections
 ============
+* applications :  array of [applications](#applications) objects containing (id,name,description)
 * blocks : array of [blocked users](#blocks) objects containing `(id, name)` fields
 * communities : array of [community](#communities) objects containing `(id, name)` fields
 * conversations : array of [conversation](#conversations) objects containing id field
@@ -31,20 +32,20 @@ Connections
 Blocks
 ------
 ### Read block (GET)
-Vous pouvez récuperer la liste des utilisateurs bloquer en envoyant une requete GET sur /USER_ID/blocks
+Vous pouvez récuperer la liste des utilisateurs bloquer en envoyant une requete GET sur /USER_ID/blocked
 
 ### Appartenance (GET)
-Vous pouvez vérifier si un utilisateur est bloquer en envoyant une requete GET sur /USER_ID/blocks    
+Vous pouvez vérifier si un utilisateur est bloquer en envoyant une requete GET sur /USER_ID/blocked    
 Vous devez passer en parametre de la requete :   
 * `id` de l'utilisateur dont vous voulez vérifier si il est bloqué.   
 
 ### Block user (POST)
-Vous pouvez blocker un utilisateur en envoyant une requete POST sur /USER_ID/blocks  
+Vous pouvez blocker un utilisateur en envoyant une requete POST sur /USER_ID/blocked  
 Vous devez passer en parametre de la requete :  
 * `id` de l'utilisateur à bloquer    
 
 ### Unblock User (DELETE)
-Vous pouvez débloquer un utilisateur en envoyant une requete DELETE sur /USER_ID/blocks   
+Vous pouvez débloquer un utilisateur en envoyant une requete DELETE sur /USER_ID/blocked   
 Vous devez passer en parametre de la requete :   
 * `id` de l'utilisateur à débloquer   
 
